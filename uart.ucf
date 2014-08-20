@@ -1,0 +1,25 @@
+NET "CLK_IN" TNM_NET = "CLK_IN"; 
+TIMESPEC "TS_CLK_IN" = PERIOD "CLK_IN" 32.5 ns; 
+
+net "input[0]" loc = D14;
+net "input[1]" loc = C14;
+net "input[2]" loc = P15;
+net "input[3]" loc = P12;
+net "input[4]" loc = R5;
+net "input[5]" loc = T5;
+net "input[6]" loc = E4;
+
+net "output(0)" loc = M14;
+net "output(1)" loc = N14;
+net "output(2)" loc = L14;
+net "output(3)" loc = M13;
+net "output(4)" loc = D4;
+net "output(5)" loc = P16;
+net "output(6)" loc = N12;
+
+
+//net "data_out" loc = U18;
+net "send" loc = A10;
+net "reset" loc = F5;
+NET "CLK_IN" IOSTANDARD = LVCMOS33;
+net "clk_in" loc = L15;
